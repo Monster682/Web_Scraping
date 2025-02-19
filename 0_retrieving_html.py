@@ -13,8 +13,4 @@ headers = {
     'Connection': 'keep-alive',
     'Referer': 'https://www.google.com',
 }
-time.sleep(2)
-r = sessions.get(url, headers=headers)
-#print(r.text)
-with open("flipkart.html", "w", encoding="utf-8") as f:
-    f.write(r.text)
+
